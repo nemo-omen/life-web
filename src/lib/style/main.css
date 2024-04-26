@@ -11,6 +11,17 @@
   --red-1000: hsl(343, 100%, 93%);
   --red: var(--dark-100);
 
+  --red-100-hex: #0f0004;
+  --red-200-hex: #420013;
+  --red-300-hex: #750021;
+  --red-400-hex: #a80030;
+  --red-500-hex: #db003e;
+  --red-600-hex: #ff0f53;
+  --red-700-hex: #ff4278;
+  --red-800-hex: #ff759c;
+  --red-900-hex: #ffa8c1;
+  --red-1000-hex: #ffdbe5;
+
   --dark-100: hsl(343, 10%, 3%);
   --dark-150: hsl(343, 10%, 6%);
   --dark-200: hsl(343, 10%, 9%);
@@ -32,6 +43,26 @@
   --dark-1000: hsl(343, 10%, 57%);
   --dark: var(--dark-100);
 
+  --dark-100-hex: #080707;
+  --dark-150-hex: #110e0f;
+  --dark-200-hex: #191516;
+  --dark-250-hex: #221c1d;
+  --dark-300-hex: #2a2225;
+  --dark-350-hex: #32292c;
+  --dark-400-hex: #3b3033;
+  --dark-450-hex: #43373b;
+  --dark-500-hex: #4c3e42;
+  --dark-550-hex: #544549;
+  --dark-600-hex: #5d4c51;
+  --dark-650-hex: #655358;
+  --dark-700-hex: #6d5a5f;
+  --dark-750-hex: #766066;
+  --dark-800-hex: #7e676e;
+  --dark-850-hex: #876e75;
+  --dark-900-hex: #8f767d;
+  --dark-950-hex: #957e85;
+  --dark-1000-hex: #9c868d;
+
   --light-100: hsl(343, 10%, 48%);
   --light-200: hsl(343, 10%, 53%);
   --light-300: hsl(343, 10%, 58%);
@@ -44,6 +75,17 @@
   --light-1000: hsl(345, 11%, 93%);
   --light: var(--light-1000);
 
+  --light-100-hex: #876e75;
+  --light-200-hex: #937b82;
+  --light-300-hex: #9f898f;
+  --light-400-hex: #aa979d;
+  --light-500-hex: #b6a5aa;
+  --light-600-hex: #c1b3b7;
+  --light-700-hex: #cdc1c4;
+  --light-800-hex: #d8cfd2;
+  --light-900-hex: #e3dddf;
+  --light-1000-hex: #efebec;
+
   --blue-100: hsl(203, 100%, 2%);
   --blue-200: hsl(203, 100%, 12%);
   --blue-300: hsl(203, 100%, 22%);
@@ -55,6 +97,17 @@
   --blue-900: hsl(203, 100%, 82%);
   --blue-1000: hsl(203, 100%, 92%);
   --blue: var(--light-1000);
+
+  --blue-100-hex: #00060a;
+  --blue-200-hex: #00263d;
+  --blue-300-hex: #004570;
+  --blue-400-hex: #0065a3;
+  --blue-500-hex: #0084d6;
+  --blue-600-hex: #0aa1ff;
+  --blue-700-hex: #3db5ff;
+  --blue-800-hex: #70c8ff;
+  --blue-900-hex: #a3dcff;
+  --blue-1000-hex: #d6efff;
 
 
   --primary-100: var(--blue-100);
@@ -80,6 +133,17 @@
   --yellow-1000: hsl(57, 85%, 91%);
   --yellow: var(--yellow-500);
 
+  --yellow-100-hex: #050500;
+  --yellow-200-hex: #343204;
+  --yellow-300-hex: #635f08;
+  --yellow-400-hex: #928c0c;
+  --yellow-500-hex: #c1b910;
+  --yellow-600-hex: #ece218;
+  --yellow-700-hex: #f0e847;
+  --yellow-800-hex: #f4ee76;
+  --yellow-900-hex: #f8f4a5;
+  --yellow-1000-hex: #fcfad5;
+
   --secondary-100: var(--yellow-100);
   --secondary-200: var(--yellow-200);
   --secondary-300: var(--yellow-300);
@@ -103,6 +167,17 @@
   --green-900: hsl(164, 93%, 84%);
   --green-1000: hsl(164, 93%, 94%);
   --green: var(--green-500);
+
+  --green-100-hex: #01140f;
+  --green-200-hex: #024533;
+  --green-300-hex: #047658;
+  --green-400-hex: #06a77c;
+  --green-500-hex: #08d9a1;
+  --green-600-hex: #1df7bd;
+  --green-700-hex: #4ef9cb;
+  --green-800-hex: #7ffad9;
+  --green-900-hex: #b0fce8;
+  --green-1000-hex: #e1fef6;
 
   --tertiary-100: var(--green-100);
   --tertiary-200: var(--green-200);
@@ -164,6 +239,8 @@ header {
 
 main {
   grid-area: main;
+  display: flex;
+  flex-direction: column;
   /* height: 100%; */
 }
 
